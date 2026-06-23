@@ -1,20 +1,55 @@
 # Auto Generate Columns in Blazor DataGrid
 
-A quick-start project that helps you how to Auto Generate Columns in blazor DataGrid and customize using Data annotations. 
+A sample Blazor application demonstrating how to leverage **data annotations** to automatically generate and customize columns in the [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid) component.
 
-Documentation: https://blazor.syncfusion.com/documentation/datagrid/data-annotation
+## Overview
 
-Online examples: https://blazor.syncfusion.com/demos/datagrid/data-annotation?theme=fluent
+This repository shows how to use `System.ComponentModel.DataAnnotations` to automatically generate DataGrid columns from your data model. By applying attributes like `[Display]`, `[ReadOnly]`, and `[DisplayFormat]`, you can control column headers, order, formatting, and visibility without writing manual column definitions in your Razor components.
 
-# Project prerequisites
-Make sure that you have the latest versions of 'Visual Studio 2022' in your machine before starting to work on this project.
+## Features
 
-# How to run this application?
-• To run this application, you need to first clone the <code>Auto-Generate-Columns-in-Blazor-DataGrid</code> repository and then open it in Visual Studio 2022.
+- **Data Annotation Support** - Use `[Display]`, `[ReadOnly]`, and `[DisplayFormat]` for declarative configuration
+- **Column Customization** - Control column headers, order, visibility, and formatting without code repetition
+- **Inline Editing** - Add, edit, and delete records with built-in edit toolbar support
+- **Read-only Fields** - Mark specific properties as read-only to prevent user modifications
+- **Data Formatting** - Apply custom formatting to numeric, date, and other data types
+- **CRUD Operations** - Complete example demonstrating create, read, update, and delete operations
 
-• Register the syncfusion license key in Program.cs file, if you have any doubt check the documentation link : https://blazor.syncfusion.com/documentation/getting-started/license-key/how-to-register-in-an-application
+## Prerequisites
 
-• Now, simply build and run your project to view the output.
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
 
+## Getting Started
 
+### Clone the Repository
 
+```bash
+git clone https://github.com/SyncfusionExamples/Auto-Generate-Columns-in-Blazor-DataGrid.git
+cd Auto-Generate-Columns-in-Blazor-DataGrid
+cd DataAnnotationSample
+```
+
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
+dotnet restore
+
+# Run the project
+dotnet run
+```
+
+## References
+
+**Documentation**: https://blazor.syncfusion.com/documentation/datagrid/data-annotation
+
+**Online example**: https://blazor.syncfusion.com/demos/datagrid/data-annotation?theme=fluent
