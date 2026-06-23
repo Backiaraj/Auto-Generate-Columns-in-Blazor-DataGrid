@@ -10,7 +10,7 @@ This repository shows how to use `System.ComponentModel.DataAnnotations` to auto
 
 - **Data Annotation Support** - Use `[Display]`, `[ReadOnly]`, and `[DisplayFormat]` for declarative configuration
 - **Column Customization** - Control column headers, order, visibility, and formatting without code repetition
-- **Inline Editing** - Add, edit, and delete records with built-in edit toolbar support
+- **Inline Editing** - Edit, update, and delete records with built-in edit toolbar support
 - **Read-only Fields** - Mark specific properties as read-only to prevent user modifications
 - **Data Formatting** - Apply custom formatting to numeric, date, and other data types
 - **CRUD Operations** - Complete example demonstrating create, read, update, and delete operations
