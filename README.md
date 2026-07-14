@@ -28,7 +28,6 @@ This repository shows how to use `System.ComponentModel.DataAnnotations` to auto
 ```bash
 git clone https://github.com/SyncfusionExamples/Auto-Generate-Columns-in-Blazor-DataGrid.git
 cd Auto-Generate-Columns-in-Blazor-DataGrid
-cd DataAnnotationSample
 ```
 
 ### Run with Visual Studio
