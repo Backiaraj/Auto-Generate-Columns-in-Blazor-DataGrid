@@ -49,6 +49,6 @@ dotnet run
 
 ## References
 
-**Documentation**: https://blazor.syncfusion.com/documentation/datagrid/data-annotation
+**Documentation**: https://help.syncfusion.com/grid-sdk/blazor/data-grid/data-annotation
 
-**Online example**: https://blazor.syncfusion.com/demos/datagrid/data-annotation?theme=fluent
+**Online example**: https://blazor.syncfusion.com/demos/datagrid/data-annotation?theme=fluent2
